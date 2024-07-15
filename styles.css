@@ -1,0 +1,802 @@
+*{
+    
+box-sizing: border-box;
+
+}
+body{
+margin-top: 10px;
+padding: 0;
+}
+/*--Header start--*/
+
+.header-container{
+display:flex;
+justify-content: space-between;
+align-items: center;
+height:10vh;
+margin-top: 10px;
+margin-left: 50px;
+margin-right:  30px;
+}
+.header-container .right-section {
+display:flex;
+justify-content: center;
+gap: 20px;
+text-decoration: none;
+margin-right:  40px;
+align-items: left;
+font-size: 20px;;
+font-family: sans;
+color:var(--primary-t-color);
+padding-top: 20px;
+align-items: center;
+}
+.header-container .right-section h6{
+margin: 10px;
+font-size: 12px;
+align-items: center;
+color:var(--h-color);
+}
+.header-container .right-section i{
+font-size: 20px;
+align-items:center;
+}
+.header-container .right-section a {
+display: flex;
+flex-direction: column;
+align-items:center;
+gap: 0rem;
+text-decoration: none;
+color:var(--primary-t-color);
+}
+.header-container .right-section .getapp{
+border: 1px solid;
+border-left-color: var(--primary-t-color);
+border-right-color: var(--primary-t-color);
+border-top-color:var(--btn-bg-color);
+border-bottom-color: var(--btn-bg-color);
+}
+.header-container .right-section .button ,.invisible,.signin {
+background-color: var(--btn-bg-color);
+min-height: 48px;
+border-radius: 24px;
+padding-top: 12px;
+padding-bottom: 12px;
+padding-left: 30px;
+padding-right: 24px;
+text-align: center;
+font-size: 16px;
+font-weight: 550;
+color:var( --btn-t-color);
+}
+.header-container .right-section .button{
+display: flex;
+justify-content: center;
+gap:15px;
+}
+.right-section .invisible{
+border-color:transparent;
+}
+.right-section .signin {
+border: 1.5px solid var(--btn-color);
+color:var(--btn-color);
+font-weight: bold;
+}
+.right-section a:hover{
+color:var(--secondry-t-color);
+}
+.right-section .invisible:hover{
+background-color:var( --secondary-btn-hover-color);
+transition: .2s ease-in-out;
+}
+.right-section .signin:hover{
+background-color:var(--signin-hover-color);
+transition: .2s ease-in-out;
+}
+/*--Header end--*/
+
+/*--Home section start--*/
+
+.banner-container{
+display: flex;
+justify-content: space-between;
+margin-top: 50px;
+padding-right: 0;
+margin-left: 50px;
+}
+.banner-container img{
+margin-right:0;
+}
+.banner-container .left-section{
+width: 500px;
+}
+.banner-container .left-section h1{
+color:var(--h-color);
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 50px;
+line-height: 1.25;
+font-weight:300;
+}
+.banner-container .signin-withgoogle {
+width: 500px;
+height: 40px;
+text-align: center;
+font-size: 16px;
+font-family: Arial, sans-serif;
+background-color:var(--btn-bg-color);
+color:var( --btn-t-color);
+border:1px solid var( --btn-t-color);
+cursor: pointer;
+border-radius: 25px;
+margin: 10px;
+overflow:visible;
+width: 70%;
+}
+.banner-container .signin-withemail{
+width: 400px;
+height: 40px;
+text-align: center;
+font-size: 16px;
+font-family: Arial, sans-serif;
+background-color: var(--btn-bg-color);
+color:var( --btn-t-color);
+border:1px solid var( --btn-t-color);
+cursor: pointer;
+border-radius: 25px;
+margin: 10px;
+overflow:visible;
+font-size: 17px;
+width: 70%;
+}
+.banner-container .left-section .content-container{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 12px;
+margin-top: 15px;
+margin-left: 30px;
+text-decoration: none;
+}
+.end-content{
+margin-top: 30px;}
+.end-content p,a{
+display: inline;
+font-size: 15px;
+}
+.banner-container .end-content p{
+font-size: 18px;
+padding-left: 80px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.content-container a{
+text-decoration: none;
+font-size: 13px;
+color: var(--btn-color);
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+.banner-container .end-content a{
+font-size: 15px;
+padding-top: 80px;
+text-decoration: none;
+color:var(--btn-color);
+font-family:Arial, Helvetica, sans-serif;
+padding:0;
+}
+.banner-container .end-content p{
+font-family:Arial, Helvetica, sans-serif;
+color:var(--primary-t-color);
+}
+button.signin-withemail:hover{
+background-color: var(--secondary-btn-hover-color);
+}
+button.signin-withgoogle:hover{
+background-color:var(--signin-hover-color);
+border: 2px solid rgb(77, 76, 76);
+}
+.end-content a:hover{
+text-decoration: underline;
+color: #1d0897;
+}
+.content-container a:hover{
+text-decoration: underline;
+color: #1d0897;
+}
+
+/*--Home section end--*/
+
+/*--section-explore start--*/
+
+.section-explore{
+display: flex;
+justify-content: space-between;
+padding-top: 20px;
+padding-bottom: 60px;
+margin-left: 50px;
+}
+.section-explore .left-section{
+width:40%;
+}
+.section-explore .right-section{
+width:58%;
+margin-top: 70px;
+}
+first-row,second-row,third-row{
+margin-top: 10px;
+}
+.section-explore .left-section h1{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 300;
+font-size: 50px;
+color: var(--h-color);
+}
+
+.section-explore .left-section p{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 300;
+font-size: 22px;
+margin-top: 0;
+}
+
+.right-section button{
+border-color: rgba(99, 99, 99, 0.807);
+background-color:var(--btn-bg-color);
+border-radius: 45px;
+font-size: 16px;
+margin-left: 0;
+padding-top: 12px;
+padding-bottom: 12px;
+padding-left: 18px;
+padding-right: 18px;
+color: var(--h-color);
+border-style:solid;
+font-weight: 400;
+}
+.third-row .Showall{
+color:var(--btn-color);
+border-color:var(--btn-color);
+}
+.third-row .Showall:hover{
+background-color: var(--signin-hover-color);
+}
+.right-section button:hover{
+background-color:  var(--secondary-btn-hover-color);
+}
+/*--section-explore end--*/
+
+
+/*--section-jobsearch start--*/
+  
+.section-jobsearch{
+
+display: flex;
+justify-content: space-between;
+margin-left: 50px;
+padding-bottom: 100px;
+}
+.section-jobsearch .left-section{
+width:40%;
+text-align: left;
+margin-left: 0;
+}
+
+.section-jobsearch .right-section{
+text-align: left;
+margin-left: 0;
+width:60%;
+}
+.section-jobsearch .left-section h1{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 50px;
+font-weight: 200;
+color: var(--h-color);
+}
+
+.section-jobsearch .right-section h4{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 16px;
+color: var(--h-color);
+font-weight: 500;
+}
+
+/*--section-jobsearch end--*/
+
+/*--section-post a job start--*/
+
+.section-postajob{
+
+margin-top: 100px;
+height:50vh;
+background-color:#f1ece5;
+margin:0;
+padding:0;
+display: flex;
+padding-bottom: 100px;
+
+}
+.section-postajob .left-section{
+
+width:40%;
+text-align: left;
+margin-left: 50px;
+}
+
+.section-postajob .left-section h1{
+
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 40px;
+font-weight: 400;
+color: var(--r-color);
+}
+
+.section-postajob .right-section{
+text-align: left;
+margin-left: 0;
+width:60%;
+margin-top: 100px;
+}
+.section-postajob .right-section button{ 
+color:var(--btn-color);
+border-color:var(--btn-color);
+background-color: transparent;}
+
+.section-postajob .right-section button:hover{
+
+  background-color:var(--signin-hover-color);
+}
+
+/*--section-post a job end--*/
+
+/*--section-Discover Start--*/
+.section-discover{
+ 
+display: flex;
+justify-content: space-between;
+margin-left: 50px;
+padding-bottom: 100px;
+margin-top: 50px;
+}
+
+.section-discover .left-section{
+
+width:40%;
+text-align: left;
+margin-left: 0;
+}
+
+
+.section-discover .left-section h1{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 300;
+font-size: 50px;
+color:var(--h-color);
+}
+.section-discover .left-section p{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 300;
+font-size: 22px;
+margin-top: 0;
+  }
+
+.section-discover .right-section{
+
+text-align: left;
+margin-left: 0;
+width:60%;
+}
+
+.section-discover .right-section h4{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 16px;
+color:var(--h-color);
+font-weight: 500;
+}
+
+.fifth-row .Showall{
+
+color:var(--btn-color);
+border-color:var(--btn-color);
+}
+
+ .fifth-row .Showall:hover{
+background-color: var( --signin-hover-color);
+  }
+
+  /*--section-Discover End--*/
+
+  /*--section-Games Start--*/
+
+.section-games{
+display: flex;
+justify-content: space-between;
+margin-left: 50px;
+padding-bottom: 100px;
+margin-top: 50px;
+}
+.section-games .left-section{
+
+width:40%;
+text-align: left;
+margin-left: 0;
+}
+
+.section-games .left-section h1{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 300;
+font-size: 50px;
+color:var(--h-color);
+}
+
+.section-games .left-section p{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 300;
+font-size: 22px;
+margin-top: 0;
+  }
+
+.section-games .right-section{
+text-align: left;
+margin-left: 0;
+width:60%;
+margin-top: 60px;
+}
+
+  /*--section-Games Start--*/
+
+ /*--section-image-content Start--*/
+
+.image-content-section{
+background-color: var(--primary-bg-color);
+height:150vh;
+}
+.in-content{
+display: flex;
+justify-content: space-between;
+margin-left: 50px;
+padding-bottom: 100px;
+margin-top: 50px;
+padding-right: 50px;
+}
+.in-content .left-section{
+
+width:40%;
+text-align: left;
+margin-left: 0;
+margin-top: 200px;
+}
+.in-content .left-section h1{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 40px;
+font-weight: 400;
+color: var(--r-color);
+}
+
+.in-content .left-section p{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 300;
+font-size: 22px;
+margin-top: 0;
+}
+.in-content .right-section{
+text-align: left;
+padding-left: 20px;
+width:50%;
+margin-top: 200px;
+display: flex;
+justify-content: space-between;
+}
+  
+.in-content .right-section i{
+padding-right: 50px;
+margin-top: 200px;
+width:20px;
+height: 39px;
+padding-bottom: 0;
+opacity: 0.7;
+}
+.in-content .right-section i:hover{
+opacity: 1;
+}
+ /*--section-image-content End--*/
+
+  /*--section-t-image Start--*/
+
+ .t-image{
+display: flex;
+
+justify-content: space-between;
+margin-top: 200px;
+margin-left: 60px;
+}
+.t-image .left-section{ 
+width:40%;
+text-align: left;
+margin-left: 0;
+}
+.t-image .left-section h1{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 300;
+font-size: 50px;
+color: var(--h-color);
+}
+
+.t-image .left-section button{ 
+border-color: var(--primary-t-color);
+background-color:var(--btn-bg-color);
+border-radius: 45px;
+font-size: 16px;
+margin-left: 0;
+padding-top: 12px;
+padding-bottom: 12px;
+padding-left: 18px;
+padding-right: 18px;
+color: (--h-color);
+border-style:solid;
+font-weight: 400;
+}
+.t-image .f-img{
+width:300px;
+height:300px;
+}
+.t-image .right-section{ 
+width:50%;
+text-align: left;
+margin-left: 0;
+}
+.t-image .right-section h1{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 300;
+font-size: 50px;
+color: #5b5959;
+}
+.t-image .right-section select{
+border-color: rgba(99, 99, 99, 0.807);
+background-color: var(--btn-bg-color);
+border-radius: 5px;
+font-size: 18px;
+margin-left: 0;
+padding-top: 12px;
+padding-bottom: 12px;
+padding-left: 18px;
+padding-right: 18px;
+color: rgb(52, 48, 48);
+border-style:solid;
+font-weight: 400;
+}
+.t-image .left-section button:hover{
+background-color:  var(--secondary-btn-hover-color);
+}
+.t-image .right-section select:hover{
+background-color:   var(--secondary-btn-hover-color);
+}
+  /*--section-t-image End--*/
+  
+   /*--section-aboutlinkedin Start--*/
+
+.aboutlinkedin
+{
+ display: flex;    
+justify-content: space-between;
+margin-top: 200px;
+}
+.aboutlinkedin .left-section{ 
+width:50%;
+text-align: left;
+margin-left: 0;
+background-color: var(--primary-bg-color);
+}
+.aboutlinkedin .left-section h1{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 40px;
+font-weight: 400;
+color: var(--r-color);
+margin-top: 200px;
+margin-left: 50px;
+}
+.aboutlinkedin .left-section p{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 300;
+font-size: 22px;
+margin-top: 0;
+font-size: 40px;
+margin-left: 50px;
+padding-bottom:20px;
+}
+.aboutlinkedin button{
+display: flex;
+margin-left: 50px;
+margin-top: 20px;
+width:400px;
+height:60px;
+background-color: rgba(169, 155, 141, 0.2);
+border: none;
+font-size: 18px;
+padding-top: 20px;
+padding-bottom: 12px;
+}
+.btn-cls .First,.Second,.Third{
+display: flex;
+justify-content: space-between;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn-cls .Third{
+color:  #8344cc;
+}
+.btn-cls .First:hover{
+background-color:  rgba(169, 155, 141, 0.4) ;
+} 
+.btn-cls .Second:hover{
+background-color:  rgba(169, 155, 141, 0.4) ;
+}  
+.btn-cls .Third:hover{
+background-color:  rgba(169, 155, 141, 0.4) ;
+}      
+/*--section-aboutlinkedin End--*/
+
+/*--video section start--*/
+
+.video-section {
+display: flex;
+margin-left: 50px;
+}
+.video-section .p-background{
+margin-top: 100px;      
+position:absolute;
+background-color:var(--vieo-bg-color);
+margin-left: 400px;
+}
+.video-section .left-section{
+margin-top: 250px;
+}
+.video-section .right-section h1{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 40px;
+font-weight: 400;
+color: var(--r-color);
+margin-top: 350px;
+margin-left: 50px;
+}
+.video-section .right-section p{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 300;
+font-size: 22px;
+margin-top: 0;
+font-size: 40px;
+margin-left: 50px;
+padding-bottom:20px;
+}
+ /*--video section End--*/
+
+/*--background-img section Start--*/
+
+.bg{ 
+position: absolute;
+}
+.bg-img h1{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 50px;
+font-weight: 200;
+color: #2c2c2c;
+margin-top: 200px;
+margin-left: 60px;
+position: relative;
+padding-top: 100px;
+}
+.bg-img .getstarted{
+border-color: var( --btn-color);
+background-color:var( --btn-color);
+border-radius: 45px;
+font-size: 16px;
+margin-left: 60px;
+padding-top: 12px;
+padding-bottom: 12px;
+padding-left: 18px;
+padding-right: 18px;
+color:var(--btn-bg-color);
+border-style:solid;
+font-weight: 400;
+position: relative;
+}
+
+.bg-img .getstarted:hover{
+
+  background-color: #004182;;
+}
+/*--background-img section End--*/
+
+/*--general section Start--*/
+.f1-section{
+background-color:  var( --footer-bg-color);
+margin-top: 500px;
+display: flex;
+justify-content: space-between;
+margin-left: 0;
+}
+.f1-section .logo {
+margin-top: 30px; 
+margin-left: 20px;
+}
+li{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 300;
+font-size: 15px;
+margin-top:0;
+text-decoration: none;
+list-style:none;
+padding-top: 0;
+text-align: left;
+margin-left: 0;
+}
+li a{
+text-decoration: none;
+margin-left: 0;
+padding-right:15px ;
+color: rgba(0, 0, 0, 0.6);
+font-weight: 600;
+font-size: 14px;
+}
+.f1-section h3{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 400;
+font-size: 18px;
+text-decoration: none;
+list-style:none;
+padding-top: 30px;
+text-align: left;
+padding-left: 40px;
+border: 0;
+}
+li{
+text-align: left;
+padding-right: 50px;
+}
+.f1-section a:hover{
+text-decoration: underline;
+color:#004182;
+
+}
+
+/*--generalsection End--*/
+
+/*--footer Start--*/
+.footer ul{
+display: flex;
+flex-direction: row;
+width:10px;
+}
+
+.footer ul{
+display: flex;
+flex-direction: row;
+width:10px;
+}
+.footer ul a{
+display: flex;
+font-size: 12px;
+font-weight: 500;
+}
+.footer ul li{
+width:100px;
+padding-right:10px;
+}
+.footer i{
+margin-top: 11px;
+padding-right:0;
+width:10px;
+}
+.footer ul li select{
+font-size: 12px;
+border:#5b5959;
+margin-left: 40px;
+color:  var(--primary-t-color);
+font-weight: 500;
+}
+
+.footer .Right:hover{
+
+color:#004182;
+text-decoration: underline;
+}
+
+.footer ul select:hover{
+color:var(--secondry-t-color);
+}
+  /*--footer End--*/
+    

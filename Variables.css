@@ -1,0 +1,17 @@
+:root{
+
+    --primary-t-color:rgba(0,1,0,.6);
+    --secondry-t-color:black;
+    --r-color: #b24020;
+    --btn-bg-color:white;
+    --signin-hover-color:#f1f8ff;
+    --btn-color:#0a66c2;
+    --secondary-btn-hover-color:rgba(0, 0, 0, 0.04);
+    --primary-bg-color: rgba(210, 209, 207, 0.3);
+    --vieo-bg-color:rgb(59,130,246,0.05);
+    --footer-bg-color:rgba(190, 183, 175, 0.2);
+    --h-color: rgba(0, 0, 0, 0.9);
+    
+    --btn-t-color: #3c4043;
+
+}
